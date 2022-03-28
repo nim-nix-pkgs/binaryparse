@@ -11,7 +11,6 @@
   inputs.src-binaryparse-master.ref   = "refs/heads/master";
   inputs.src-binaryparse-master.owner = "PMunch";
   inputs.src-binaryparse-master.repo  = "binaryparse";
-  inputs.src-binaryparse-master.dir   = "";
   inputs.src-binaryparse-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
